@@ -1,0 +1,38 @@
+/* For Maximum and Unaltered Display */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body{
+  text-align: center;
+}
+/* Media Queries */
+/* For Phones Of ALl Sizes */
+@media screen and (min-width: 320px) and (max-width: 480px){
+  #gameCanvas{
+    width: 300px;
+    height: 500px;
+  }
+}
+/* iPads and Tablets */
+@media screen and (min-width: 481px) and (max-width: 768px){
+  #gameCanvas{
+    width: 400px;
+    height: 550px;
+  }
+}
+/* Small Screen Laptops */
+@media screen and (min-width: 769px) and (max-width: 1024px){
+  #gameCanvas{
+    width: 700px;
+    height: 600px;
+  }
+}
